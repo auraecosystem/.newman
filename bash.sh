@@ -18,7 +18,7 @@ copy .env.example flowsint-core\.env
 copy .env.example flowsint-app\.env
 docker compose -f docker-compose.prod.yml up -r
 
-git clone https://github.com/reconurge/flowsint.git
+git clone https://github.com/auraecosystem/flowsint.git
 cd flowsint
 cp .env.example .env
 # Edit .env — see "Before exposing to a network" below
